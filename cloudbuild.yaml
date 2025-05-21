@@ -1,0 +1,8 @@
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+steps:
+  - name: 'gcr.io/cloud-builders/mvn'
+    args: ['clean', 'verify']
+
+timeout: 300s
