@@ -35,8 +35,8 @@ public class calculatorServiceTest {
     @Test
     public void testMultiplyShouldFailInitially() {
         int result = calculator.multiply(2, 3);
-        assertEquals("2 * 3 should be 6", 5, result);  // Intentionally wrong
-//        assertEquals("2 * 3 should be 6", 6, result); // Writing Correct value
+//        assertEquals("2 * 3 should be 6", 5, result);  // Intentionally wrong
+        assertEquals("2 * 3 should be 6", 6, result); // Writing Correct value
 
     }
 
